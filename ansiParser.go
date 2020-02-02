@@ -1,7 +1,7 @@
 package gotel
 
 import(
-    "log"
+ //   "log"
 )
 
 // ForeColor Text foreground color
