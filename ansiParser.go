@@ -176,7 +176,7 @@ func (a *AnsiParser) AddByte(b byte) AnsiCommand {
 
 // CommandCSI comment
 func (a *AnsiParser) CommandCSI(param []byte, cmd byte) AnsiCommand {
-return(AnsiCommand)
+    return a.ansiCmd
 }
 
 // CommandC0 comment
