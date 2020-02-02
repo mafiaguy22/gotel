@@ -176,32 +176,32 @@ func (a *AnsiParser) AddByte(b byte) AnsiCommand {
 
 // CommandCSI comment
 func (a *AnsiParser) CommandCSI(param []byte, cmd byte) AnsiCommand {
-return
+return(AnsiCommand)
 }
 
 // CommandC0 comment
 func (a *AnsiParser) CommandC0(b byte) AnsiCommand {
-   return
+   return(AnsiCommand)
 }
 
 // CommandIntermediate Only support 3 char command
 func (a *AnsiParser) CommandIntermediate(b1 byte, b2 byte) AnsiCommand {
-    return
+    return(AnsiCommand)
 }
 
 // CommandParameter comment
 func (a *AnsiParser) CommandParameter(b byte) AnsiCommand {
-    return
+    return(AnsiCommand)
 }
 
 // CommandC1 comment
 func (a *AnsiParser) CommandC1(b byte) AnsiCommand {
-    return
+    return(AnsiCommand)
 }
 
 // CommandLowercase comment
 func (a *AnsiParser) CommandLowercase(b byte) AnsiCommand {
-    return
+ return(AnsiCommand)
 }
 
 
